@@ -14,7 +14,7 @@ export default class UsesPage extends Component {
     return (
       <Wrap
         pageBg={<PageBg />}
-        title="Uses - Chandu J S"
+        title="Uses - Anil Loutombam"
         description="Stuff I use in a daily basis.">
         <div
           css={css`
@@ -93,8 +93,8 @@ export default class UsesPage extends Component {
                               {item.emoji}
                             </span>
                           ) : (
-                            ''
-                          )}
+                              ''
+                            )}
                           <span
                             css={css`
                               font-weight: ${item.description
@@ -110,8 +110,8 @@ export default class UsesPage extends Component {
                                 {item.name}
                               </OutboundLink>
                             ) : (
-                              item.name
-                            )}
+                                item.name
+                              )}
                           </span>
                           {item.description ? (
                             <div
@@ -123,8 +123,8 @@ export default class UsesPage extends Component {
                               {item.description}
                             </div>
                           ) : (
-                            ''
-                          )}
+                              ''
+                            )}
                         </li>
                       ))}
                     </ul>

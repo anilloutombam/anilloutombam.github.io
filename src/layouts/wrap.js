@@ -14,11 +14,11 @@ export default class Wrap extends Component {
       ${GlobalStyles}
       body {
         color: ${this.props.lightsOn
-          ? ColorsAdvanced.secondaryLightsOn
-          : ColorsAdvanced.secondary};
+        ? ColorsAdvanced.secondaryLightsOn
+        : ColorsAdvanced.secondary};
         background-color: ${this.props.lightsOn
-          ? ColorsAdvanced.mainLightsOn
-          : ColorsAdvanced.main};
+        ? ColorsAdvanced.mainLightsOn
+        : ColorsAdvanced.main};
       }
     `
 
@@ -256,12 +256,12 @@ export default class Wrap extends Component {
                       position: relative;
                     }
                   `}>
-                  <Link
+                  {/* <Link
                     className={this.props.isWorkPage ? 'active' : ''}
                     activeClassName="active"
                     to="/work">
                     Work
-                  </Link>
+                  </Link> */}
                   <Link
                     className={this.props.isBlogPage ? 'active' : ''}
                     activeClassName="active"
@@ -271,9 +271,9 @@ export default class Wrap extends Component {
                   <Link activeClassName="active" to="/about">
                     About
                   </Link>
-                  <Link activeClassName="active" to="/uses">
+                  {/* <Link activeClassName="active" to="/uses">
                     Uses
-                  </Link>
+                  </Link> */}
                 </nav>
                 <div
                   css={css`

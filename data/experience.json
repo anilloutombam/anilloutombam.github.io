@@ -1,12 +1,11 @@
 [
   {
-    "company": null,
+    "company": "Refixd Technologies",
     "position": "Software Engineer",
-    "location": "Trivandrum, Kerala, India",
-    "duration": "Aug 2013 – Present",
+    "location": "Bengaluru, Karnataka, India",
+    "duration": "June 2019 – Present",
     "description": [
-      "I've been working as a freelancer since 2013",
-      "Technologies Worked With: NodeJS (Express), PHP (Codeigniter), MySQL, MongoDB, HTML5, CSS3, JavaScript (React, jQuery, AngularJS, Angular, Electron), Dart (Flutter), Java (Android), Swift (iOS)"
+      "Technologies Worked With: PHP (Laravel), MySQL,  HTML5, CSS3, JavaScript (React, jQuery)"
     ],
     "responsibilities": []
   },

@@ -14,17 +14,17 @@ export default class AboutPage extends Component {
     return (
       <Wrap
         pageBg={<PageBg />}
-        title="About - Chandu J S"
+        title="About - Anil Loutombam"
         description="I'm Chandu J S. I'm a full stack developer based in Trivandrum, India.">
         <div className="content-wrap">
           <div className="h1 font-weight-bold mb-5">
             Hi.
             <br />
-            I'm <span className="high">Chandu J S</span>
+            I'm <span className="high">Anil Loutombam</span>
             <span className="blinker">.</span>
-            <br />A <span className="high">full stack developer</span>
+            <br />A <span className="high">software engineer</span>
             <br /> based in
-            <span className="brand-light"> Trivandrum, India</span>.
+            <span className="brand-light"> Bengaluru, India</span>.
           </div>
           <div className="brand-light h3">
             Interested in

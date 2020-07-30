@@ -15,7 +15,7 @@ export default class IndexPage extends Component {
     return (
       <Wrap
         pageBg={<PageBg />}
-        description="Hi! 👋 I'm Chandu J S. I'm a full stack developer from Trivandrum. This is my portfolio website. Here you can see some of my work, articles & other information about me.">
+        description="Hi! 👋 I'm Anil Loutombam. I'm a Software Engineer This is my portfolio website. Here you can see some of my work, articles & other information about me.">
         <div
           css={css`
             top: 47%;
@@ -43,12 +43,12 @@ export default class IndexPage extends Component {
               I'm <span className="high">a</span>
             </div>
             <div className="text-break">
-              full stack <span className="high">developer</span>
+              software <span className="high"> engineer</span>
               <span className="blinker">.</span>
             </div>
           </h1>
           <Link
-            to="/work"
+            to="/blog"
             className="mt-4"
             css={css`
               display: inline-block;
@@ -78,7 +78,7 @@ export default class IndexPage extends Component {
                 }
               }
             `}>
-            GoTo Work
+            GoTo BLOG
           </Link>
         </div>
       </Wrap>
