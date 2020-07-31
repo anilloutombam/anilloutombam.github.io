@@ -15,7 +15,7 @@ export default class AboutPage extends Component {
       <Wrap
         pageBg={<PageBg />}
         title="About - Anil Loutombam"
-        description="I'm Chandu J S. I'm a full stack developer based in Trivandrum, India.">
+        description="I'm Anil Loutombam. I'm a LAMP stack developer based in Bengaluru, India.">
         <div className="content-wrap">
           <div className="h1 font-weight-bold mb-5">
             Hi.
