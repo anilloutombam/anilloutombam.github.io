@@ -65,30 +65,30 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   }
 
   // populating work
-  const workListResult = await graphql(`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              slug
-            }
-          }
-        }
-      }
-    }
-  `)
+  // const workListResult = await graphql(`
+  //   query {
+  //     allMarkdownRemark {
+  //       edges {
+  //         node {
+  //           fields {
+  //             slug
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
-  const workSlugList = workListResult.data.allMarkdownRemark.edges.map(
-    (item) => {
-      return item.node.fields.slug
-    }
-  )
-  for (const slug of workSlugList) {
-    createPage({
-      path: `/work/${slug}`,
-      context: { slug },
-      component: require.resolve(`./src/templates/work.js`),
-    })
-  }
+  // const workSlugList = workListResult.data.allMarkdownRemark.edges.map(
+  //   (item) => {
+  //     return item.node.fields.slug
+  //   }
+  // )
+  // for (const slug of workSlugList) {
+  //   createPage({
+  //     path: `/work/${slug}`,
+  //     context: { slug },
+  //     component: require.resolve(`./src/templates/work.js`),
+  //   })
+  // }
 }
