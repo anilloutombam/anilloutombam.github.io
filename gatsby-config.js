@@ -20,14 +20,13 @@ module.exports = {
     uses,
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     head: true,
-    //     trackingId: 'UA-151971254-1',
-    //     optimizeId: 'OPT-NVB8G6S',
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        head: true,
+        trackingId: 'UA-162796447-1',
+      },
+    },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
