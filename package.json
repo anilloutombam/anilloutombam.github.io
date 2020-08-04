@@ -31,6 +31,7 @@
     "gatsby-remark-relative-images": "^0.2.3",
     "gatsby-source-dev": "^0.1.4",
     "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-source-medium": "^2.3.10",
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.6",
     "node-fetch": "^2.6.0",

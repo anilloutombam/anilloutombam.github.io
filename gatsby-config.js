@@ -57,6 +57,12 @@ module.exports = {
         username: 'anilloutombam',
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@anilloutombam`,
+      },
+    },
     'gatsby-plugin-purgecss',
     {
       resolve: `gatsby-source-filesystem`,
