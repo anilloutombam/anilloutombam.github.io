@@ -15,6 +15,11 @@
     "url": "https://instagram.com/anilloutombam"
   },
   {
+    "icon": "whatsapp",
+    "service": "Whatsapp",
+    "url":"https://api.whatsapp.com/send?phone=+917002159327"
+  },
+  {
     "icon": "linkedin",
     "service": "LinkedIn",
     "url": "https://linkedin.com/in/anil-loutombam"
