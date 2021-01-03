@@ -1,5 +1,10 @@
 [
   {
+    "icon": "mediums",
+    "service": "Medium",
+    "url": "https://anilloutombam.medium.com/"
+  },
+  {
     "icon": "dev",
     "service": "DEV Community",
     "url": "https://dev.to/anilloutombam"
