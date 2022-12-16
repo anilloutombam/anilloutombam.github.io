@@ -8,7 +8,7 @@ const experience = require('./data/experience.json')
 const education = require('./data/education.json')
 
 module.exports = {
-  pathPrefix: '/',
+  pathPrefix: '/anilloutombam.github.io',
   siteMetadata: {
     title: `💻 ${person.name.first} ${person.name.last} - ${person.position}`,
     siteUrl: `https://${person.website}`,
